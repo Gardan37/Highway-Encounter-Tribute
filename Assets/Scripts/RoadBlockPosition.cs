@@ -8,7 +8,7 @@ public class RoadBlockPosition : MonoBehaviour
 
     void Start ()
     {
-        transform.position = new Vector3(0, transform.position.y, position*10);
-        transform.parent.position = new Vector3(0, transform.parent.position.y, position * 10);
+        //transform.position = new Vector3(0, transform.position.y, position*10);
+        //transform.parent.position = new Vector3(0, transform.parent.position.y, position * 10);
     }
 }
