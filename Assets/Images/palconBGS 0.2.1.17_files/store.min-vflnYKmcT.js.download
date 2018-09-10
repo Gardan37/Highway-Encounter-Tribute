@@ -1,0 +1,2 @@
+define(["require","exports","tslib","esignature_prototype/utils","esignature_prototype/data/actions","external/lodash"],function(e,t,i,n,r,s){"use strict";function a(e,t){if(n.esignaturesEnabled()&&t){var a=s.flatMap(t.recipients,function(e,n){return e.fields.map(function(e){return i.__assign({},e,{isForCurrentUser:n===t.me_gid})})});e.dispatch(r.enterSigningMode(a,t.esig_token))}}Object.defineProperty(t,"__esModule",{value:!0}),t.hydrateEsignatureNamespace=a});
+//# sourceMappingURL=store.min.js-vflId_GYc.map

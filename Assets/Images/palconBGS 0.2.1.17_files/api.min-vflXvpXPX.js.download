@@ -1,0 +1,2 @@
+define(["require","exports","modules/clean/api_v2/client"],function(e,n,t){"use strict";function i(e,n){return(new t.ApiV2Client).ns("esignature").rpc("sign",e,{subjectUserId:n})}function r(e,n){return(new t.ApiV2Client).ns("esignature").rpc("create_request",e,{subjectUserId:n})}Object.defineProperty(n,"__esModule",{value:!0}),n.submitSignedDocument=i,n.sendSignatureRequest=r});
+//# sourceMappingURL=api.min.js-vflIoUKKq.map
